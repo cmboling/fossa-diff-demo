@@ -1,4 +1,4 @@
-# fossa-diff-demo
+# FOSSA diff demo
 
 This repository demonstrates how to use FOSSA's `fossa test --diff` command
 
