@@ -10,3 +10,7 @@ This repository demonstrates how to use FOSSA's `fossa test --diff` command
   - [ ] If you're on the latest commit, run `fossa test --diff 899eac07b5c406b7a0c15014b58c9b06d54c8228`. `899eac07b5c406b7a0c15014b58c9b06d54c8228` is a previous commit.
   - [ ] Similarly, you can explicitly define two revisions (commits). In this case we specify the latest commit as the revision and we want to compare it to an older commit, so we diff it: `fossa test --diff 899eac07b5c406b7a0c15014b58c9b06d54c8228 --revision 8e8343997f0a5ddf738589a37a8e4cd9fc081959`
 - [ ] If you don't have this repository cloned, but you know it's been scanned before, you can run `fossa test --project https://github.com/cmboling/fossa-diff-demo.git --diff 899eac07b5c406b7a0c15014b58c9b06d54c8228 --revision 8e8343997f0a5ddf738589a37a8e4cd9fc081959`
+
+## References
+
+- [FOSSA CLI's diff flag](https://github.com/fossas/fossa-cli/blob/master/docs/references/subcommands/test.md#test-for-new-issues-compared-to-another-revision)
